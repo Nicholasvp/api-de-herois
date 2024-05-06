@@ -10,10 +10,10 @@ gem "stimulus-rails"
 gem "jbuilder"
 gem "tzinfo-data", platforms: %i[ mswin mswin64 mingw x64_mingw jruby ]
 gem "bootsnap", require: false
+gem "sqlite3", "~> 1.4"
 
 
 group :development, :test do
-  gem "sqlite3", "~> 1.4"
   gem "debug", platforms: %i[ mri mswin mswin64 mingw x64_mingw ]
 end
 
