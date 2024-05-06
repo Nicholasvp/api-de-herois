@@ -10,7 +10,7 @@ gem "stimulus-rails"
 gem "jbuilder"
 gem "tzinfo-data", platforms: %i[ mswin mswin64 mingw x64_mingw jruby ]
 gem "bootsnap", require: false
-gem "sqlite3", "~> 1.4"
+gem "pg"
 
 
 group :development, :test do
@@ -31,4 +31,4 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "pg", "~> 1.5", :group => :production
+
